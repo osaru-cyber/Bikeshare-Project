@@ -17,6 +17,7 @@ You can input `python bikeshare.py` on your terminal to run this program. I use 
 
 The program takes user input for the city (e.g. Chicago), month for which the user wants to view data (e.g. January; also includes an 'all' option), and day for which the user wants to view data (e.g. Monday; also includes an 'all' option).
 Upon receiving the user input, it goes ahead and asks the user if they want to view the raw data (5 rows of data initially) or not. Following the input received, the program prints the following details:
+
 •	Most popular month
 •	Most popular day
 •	Most popular hour
@@ -34,15 +35,21 @@ Finally, the user is prompted with the choice of restarting the program or not.
 
 # Requirements
 •	Language: Python 3.6 or above
+
 •	Libraries: pandas, numpy, time
 
 # Project Data
 •	chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+
 •	new_york_city.csv - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+
 •	washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
 
 # Built with
-•	Python 3.6.6 - The language used to develop this.
-•	pandas - One of the libraries used for this.
-•	numpy - One of the libraries used for this.
-•	time - One of the libraries used for this.
+•	Python 3.6.6 - The language used to develop the project.
+
+•	pandas - One of the libraries used for the project.
+
+•	numpy - One of the libraries used for the project.
+
+•	time - One of the libraries used for the project.
